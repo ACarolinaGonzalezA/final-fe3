@@ -97,7 +97,19 @@
     border-color: #bbb;
   }
 
- 
+  @media (max-width: 768px) {
+    .nav-links {   
+      align-items: flex-start;
+    }
+  
+    .nav-links li {
+      font-size: 1rem;
+    }
+    
+    .theme-toggle {
+      margin-top: 1rem;
+    }
+  }
   
 
  
