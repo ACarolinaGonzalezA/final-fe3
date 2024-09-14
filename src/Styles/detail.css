@@ -5,26 +5,30 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
-    margin: 20px auto; /* Cambiado para centrar horizontalmente */
+    margin: 20px auto; 
     padding: 20px;
     text-align: center;
     transition: all 0.3s ease-in-out;
   }
+  .card.dark {
+    background-color: #333333; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco para modo oscuro */
+}
   
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   }
   
-  /* Title Styling */
   h1 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
     font-weight: 600;
   }
-  
-  /* Avatar Styling */
+  .card.dark h1 {
+    color: #ffffff; 
+}
   img {
     border-radius: 50%;
     width: 150px;
@@ -33,7 +37,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* User Details Styling */
   .details {
     text-align: left;
   }
@@ -48,8 +51,8 @@
     color: #333;
     font-weight: 500;
   }
+ 
   
-  /* Responsive Styling */
   @media (max-width: 500px) {
     .card {
       padding: 15px;

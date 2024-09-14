@@ -12,12 +12,12 @@ const Favs = () => {
   };
 
   if (state.favs.length === 0) {
-    return <p align = "center">No existen cards en Favoritos aún</p>;
+    return <h2>Aún no tienes odontólogos en tus favoritos</h2>;
   }
 
   return (
     <div className={`favs-container ${state.theme}`}>
-      <h1>Favs</h1>
+      <h1>Favorite Dentists</h1>
       <div className="card-grid">
         {state.favs.map((dentist, index) => (
           <Card key={index} dentist={dentist}>

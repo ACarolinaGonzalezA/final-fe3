@@ -2,7 +2,7 @@ import React from 'react';
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import '../Styles/detail.css'; // Importa el archivo CSS
+import '../Styles/detail.css'; 
 
 import { useDentistStates } from "../utils/Context";
 

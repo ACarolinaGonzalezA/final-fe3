@@ -23,7 +23,15 @@ code {
 h1{
   text-align: center;
 }
-
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.dark h1, .dark h2, .dark p {
+  color: white;
+}
 nav{
   display: flex;
   width: 80vw;
@@ -72,6 +80,7 @@ form{
 }
 
 .card{
+  color: #121212;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -93,6 +102,10 @@ form{
   height: auto;
   flex-wrap: wrap;
   margin: 0 auto;
+}
+.dark .card {
+  background-color: #555454;
+  color: white;
 }
 
 table {
@@ -120,4 +133,15 @@ tr:nth-child(even) {
 }
 .dark > a {
   color: white;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 150px;
+    padding: 0.5rem;
+  }
+
+  .card-grid {
+    gap: 0.5rem;
+  }
 }

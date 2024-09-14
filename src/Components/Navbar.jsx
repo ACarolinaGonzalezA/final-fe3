@@ -25,7 +25,7 @@ const Navbar = () => {
         <li>
           <Link to={routes.favs}>Favs</Link>
         </li>
-        <button onClick={handleThemeToggle}>
+        <button className="theme-toggle" onClick={handleThemeToggle}>
           {state.theme === "light" ? "🌙" : "☀️"}
         </button>
       </ul>
