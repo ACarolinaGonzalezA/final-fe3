@@ -1,0 +1,6 @@
+footer > img {
+    width: 199px;
+    border-radius: 0;
+    object-fit: contain;
+    height: auto;
+}

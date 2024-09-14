@@ -1,0 +1,71 @@
+/* Estilo básico de la barra de navegación */
+.app {
+  background: #ffffff;
+  color: #000000;
+}
+
+.app-dark {
+  background-color:#4d4c4c;
+  color:#ffffff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 80%;
+    background-color: var(--bg-color);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .navbar.light {
+    --bg-color: #ffffff;
+    color: #12121296;
+  }
+  
+  .navbar.dark {
+    --bg-color: #4d4c4c;
+    color: #ffffff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links li {
+    font-size: 1.2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: var(--hover-color);
+  }
+  
+  .navbar.light a {
+    --hover-color: #12121296;
+  }
+  
+  .navbar.dark a {
+    --hover-color: #fff;
+  }
+  
+  .theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: inherit;
+  }

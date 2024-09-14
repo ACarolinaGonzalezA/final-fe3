@@ -1,0 +1,76 @@
+/* Form.css */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #f0f4f8;
+    padding: 20px;
+  }
+  
+  .form-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 460px;
+    height: 310px;
+  }
+  
+  .form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-box label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .form-box input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-box p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .form-box p.error {
+    color: red;
+  }
+  
+  .form-box p.success {
+    color: green;
+    text-align: center;
+  }
