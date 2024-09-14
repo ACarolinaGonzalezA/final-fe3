@@ -99,7 +99,17 @@
 
   @media (max-width: 768px) {
     .nav-links {   
-      align-items: flex-start;
+      padding: 1rem;
+      overflow: hidden;
+
+    }
+    .logo {
+      display: none; 
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
   
     .nav-links li {
@@ -108,6 +118,7 @@
     
     .theme-toggle {
       margin-top: 1rem;
+      margin-left: auto;
     }
   }
   
