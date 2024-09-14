@@ -1,6 +1,8 @@
 # ctd-fe3-final
-
 Examen Final de Frontend III
+Autoras: Gina Ailyn Arias -Ana Carolina González Alzate
+Deploy: https://final-fe3-pi.vercel.app/
+
 
 ## Indice
 
